@@ -3,8 +3,9 @@ body {
     font-optical-sizing: auto;
     background-color: #A3CCAB;
     background-image: url("../image/453880691_1262001438163318_5953848727180798725_n.jpg");
-    background-size: cover; 
-    height: 100pxpx;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
     color: white;
 }
 
@@ -32,6 +33,7 @@ header h2 {
 
 main {
     margin-top: 20rem;
+    padding-bottom: 3rem;
 }
 
 article {
@@ -54,4 +56,10 @@ footer {
 
 footer strong {
     font-size: 20px;
+}
+
+@media (orientation: landscape) {
+}
+
+@media (orientation: portrait) {
 }
