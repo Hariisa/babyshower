@@ -1,43 +1,45 @@
 body {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    background-color: #e9d48b;
+    background-color: #A3CCAB;
+    background-image: url("../image/453880691_1262001438163318_5953848727180798725_n.jpg");
+    background-size: cover; 
+    height: 100pxpx;
+    color: white;
+}
+
+
+.header-img {
+    background-color: #665f46;
 }
 
 header {
     text-align: center;
     padding: 0.5rem;
+    color: rgb(255, 255, 255);
 }
-
-.header-img {
-    background-color: #665f46;
-    background-image: url("../image/foret.jpg");
-    background-size: cover;
-    height: 300px;
-    color: wheat;
-    background-blend-mode: multiply;
-}
-
 
 header h1 {
     font-size: 45px;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 header h2 {
     font-size: 35px;
-    padding: 0 0.5rem;
+    padding: 0 0.6rem;
+    padding-bottom: 1rem;
 }
 
 main {
-    margin-top: 6rem;
+    margin-top: 20rem;
 }
 
 article {
     text-align: center;
 }
+
 article h3 {
-    padding: 2rem;
+    padding: 1.5rem;
     font-size: 25px;
 }
 
@@ -48,4 +50,8 @@ footer {
     background-color: #665f46;
     color: white;
     text-align: center;
+}
+
+footer strong {
+    font-size: 20px;
 }
