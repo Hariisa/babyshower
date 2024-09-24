@@ -1,12 +1,12 @@
 body {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    background-color: #A3CCAB;
     background-image: url("anais-et-ugo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #A3CCAB;
     height: 100dvh;
     width: 100dvh;
     color: white;
