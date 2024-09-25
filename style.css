@@ -7,17 +7,22 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #A3CCAB;
-    height: 50dvh;
-    width: 50dvh;
     color: white;
+}
+
+.container {
+    height: 100%;
 }
 
 .header-img {
     background-color: #665f46;
+    text-align: center;
+    width: 50%;
 }
 
 header {
-    align-items: center;
+    display: flex;
+    justify-content: center;
     padding: 0.5rem;
     color: rgb(255, 255, 255);
 }
