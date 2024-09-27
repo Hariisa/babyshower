@@ -15,9 +15,9 @@ body {
 }
 
 .header-img {
-    background-color: #665f46;
+    background-color: rgba(154, 212, 136, 0.3);;
     text-align: center;
-    width: 50%;
+    width: 100%%;
 }
 
 header {
@@ -29,7 +29,7 @@ header {
 
 header h1 {
     font-size: 30px;
-    padding: 1rem;
+
 }
 
 header h2 {
